@@ -28,6 +28,8 @@ main {
     gap: 20px;
     text-align: center;
     position: relative;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
 }
 
 .question-card {
@@ -35,28 +37,34 @@ main {
     max-height: 250px;
     background-color: #95aedd;
     margin-left: 10%;
-    padding: 4%;
-    
+    padding: 2%;
     margin-top: 5%;
+    box-shadow: 20px 20px 50px grey;
     
-   
 }
 
 .answer {
     display: flex;
-    gap: 5px;
+    gap: 18px;
     justify-content: flex-start;
+    position: relative;
+    z-index: 1;
+    
 }
 
 .btn-show {
     padding:2%;
     margin: 8%;
+    border-radius: 12%;
+    box-shadow: 15px 10px 20px 8px #b5c6e8 inset;
 }
 
 .btn-answer {
     background-color: #646367;
     color: white;
     text-align: center;
-    padding: 4px;
-    
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 12%;
+    font-size: 1.4rem;
 }
