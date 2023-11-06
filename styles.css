@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body {
+    width: 500px;
+}
+
 main {
     position: absolute;
 }
