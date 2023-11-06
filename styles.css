@@ -5,13 +5,13 @@
     padding: 0;
 }
 
+@media (min-width: 390px) {
 body {
-    width: 500px;
-}
-
-main {
+    width: 100%;
     position: absolute;
 }
+}
+
 
 h1 {
     text-align: center;
@@ -19,6 +19,7 @@ h1 {
     height: 50px;
     background-color: #00008b;
     color: white;
+    padding: 3px;
 }
 
 main {
@@ -27,6 +28,8 @@ main {
     gap: 20px;
     text-align: center;
     position: relative;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
 }
 
 .question-card {
@@ -34,22 +37,26 @@ main {
     max-height: 250px;
     background-color: #95aedd;
     margin-left: 10%;
-    padding: 4%;
-    
+    padding: 2%;
     margin-top: 5%;
+    box-shadow: 20px 20px 50px grey;
     
-   
 }
 
 .answer {
     display: flex;
-    gap: 5px;
+    gap: 18px;
     justify-content: flex-start;
+    position: relative;
+    z-index: 1;
+    
 }
 
 .btn-show {
     padding:2%;
     margin: 8%;
+    border-radius: 12%;
+    box-shadow: 15px 10px 20px 8px #b5c6e8 inset;
 }
 
 .btn-answer {
@@ -62,4 +69,8 @@ main {
 .img-bookmark {
     float: right;
     margin-top: -35px;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 12%;
+    font-size: 1.4rem;
 }
