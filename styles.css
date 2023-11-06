@@ -5,13 +5,13 @@
     padding: 0;
 }
 
+@media (min-width: 390px) {
 body {
-    width: 500px;
-}
-
-main {
+    width: 100%;
     position: absolute;
 }
+}
+
 
 h1 {
     text-align: center;
@@ -19,6 +19,7 @@ h1 {
     height: 50px;
     background-color: #00008b;
     color: white;
+    padding: 3px;
 }
 
 main {
