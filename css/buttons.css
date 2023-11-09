@@ -1,6 +1,8 @@
+
+
 .btn-category {
-    background-color: #646367;
-    color: white;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
     text-align: center;
     padding: 4px;
 }
@@ -9,5 +11,7 @@
     padding:2%;
     margin: 8%;
     border-radius: 12%;
-    box-shadow: 15px 10px 20px 8px #b5c6e8 inset;
+    box-shadow: 15px 10px 20px 8px #b5c6e8;
+    background-color: var(--primary-color);
+    color: var(--second-color)
 }
