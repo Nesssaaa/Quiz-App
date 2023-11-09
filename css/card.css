@@ -1,0 +1,9 @@
+.question-card {
+    max-width: 80%;
+    max-height: 250px;
+    background-color: #95aedd;
+    margin-left: 10%;
+    padding: 2%;
+    margin-top: 5%;
+    box-shadow: 20px 20px 50px grey;
+}
