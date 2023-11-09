@@ -1,0 +1,13 @@
+.btn-category {
+    background-color: #646367;
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+
+.btn-show {
+    padding:2%;
+    margin: 8%;
+    border-radius: 12%;
+    box-shadow: 15px 10px 20px 8px #b5c6e8 inset;
+}
