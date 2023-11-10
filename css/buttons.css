@@ -10,6 +10,17 @@
 .btn-show {
     padding:2%;
     margin: 8%;
+    margin-bottom: 0;
+    border-radius: 12%;
+    box-shadow: 15px 10px 20px 8px #b5c6e8;
+    background-color: var(--primary-color);
+    color: var(--second-color)
+}
+
+.btn-hide-answer {
+    /*visibility: hidden;*/
+    padding:2%;
+    margin: 8%;
     border-radius: 12%;
     box-shadow: 15px 10px 20px 8px #b5c6e8;
     background-color: var(--primary-color);
