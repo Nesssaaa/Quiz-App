@@ -16,7 +16,8 @@
     color: var(--second-color)
 }
 
-.btn-show:focus {
+.btn-show:focus,
+.btn-show:active {
     background-color: var(--tertiary-color);
     color: var(--primary-color);
 }
@@ -51,7 +52,8 @@
     color: var(--second-color)
 }
 
-.btn-hide-answer-none:focus {
+.btn-hide-answer-none:focus,
+.btn-hide-answer-none:active {
     background-color: var(--tertiary-color);
     color: var(--primary-color);
 }
