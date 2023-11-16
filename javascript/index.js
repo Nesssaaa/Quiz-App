@@ -1,21 +1,24 @@
-//Question-Card
+//Question-Card-Answer and Answer-Button
 
 const showAnswerButton = document.querySelector('[data-js="showButton"]')
 const hideAnswerButton = document.querySelector('[data-js="hideButton"]')
 const showTheAnswer = document.querySelector('[data-js="rightAnswer"]')
+const output = document.querySelector('[data-js="showAnswer"]')
 
-showAnswerButton.addEventListener("click", () => {
-    showAnswerButton.classList.toggle("hidden");
-    hideAnswerButton.classList.toggle("hidden");
-    showTheAnswer.classList.toggle("hidden")
+
+
+  showAnswerButton.addEventListener("click", () => {
+    if (output.innerHTML == "Show Answer") {
+    output.innerHTML= "Hide Answer";
+    showTheAnswer.classList.remove("hidden");
+  }
+  else{
+    output.innerHTML="Show Answer";
+    showTheAnswer.classList.add("hidden");
    
-  });
+  }
+});
 
-  hideAnswerButton.addEventListener("click", () => {
-    showAnswerButton.classList.toggle("hidden");
-    hideAnswerButton.classList.toggle("hidden");
-    showTheAnswer.classList.toggle("hidden")
-  });
   
   //Bookmark color change
 
