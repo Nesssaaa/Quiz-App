@@ -21,15 +21,7 @@ h1 {
     z-index: 1;
 }
 
-.img-bookmark {
-    float: right;
-    margin-top: -30px;
-    margin-bottom: 0;
-    padding: 0px;
-  
-    border-radius: 12%;
-    font-size: 1.4rem;
-}
+
 
 footer {
     display: flex;

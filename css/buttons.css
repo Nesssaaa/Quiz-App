@@ -57,3 +57,18 @@
     background-color: var(--tertiary-color);
     color: var(--primary-color);
 }
+
+.img-bookmark {
+    float: right;
+    margin-top: -30px;
+    margin-bottom: 0;
+    padding: 0px;
+    border-radius: 12%;
+    font-size: 1.4rem;
+    background-color: transparent;
+    border: none;
+}
+
+.img-bookmark:hover {
+    cursor: pointer;
+}
