@@ -36,3 +36,7 @@ main {
     margin-bottom: 5%;
     font-size: 1.2rem;
 }
+
+.hidden {
+    display: none;
+}
