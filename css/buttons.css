@@ -1,13 +1,8 @@
 
 
-.btn-category {
-    background-color: var(--tertiary-color);
-    color: var(--primary-color);
-    text-align: center;
-    padding: 4px;
-}
 
-.btn-show {
+
+.button {
     padding:2%;
     margin: 8%;
     border-radius: 12%;
@@ -16,51 +11,15 @@
     color: var(--second-color)
 }
 
-.btn-show:focus,
-.btn-show:active {
-    background-color: var(--tertiary-color);
-    color: var(--primary-color);
-}
-
-.btn-show-none {
-    display: none;
-    padding:2%;
-    margin: 8%;
-    border-radius: 12%;
-    box-shadow: 15px 10px 20px 8px #b5c6e8;
-    background-color: var(--primary-color);
-    color: var(--second-color)
-}
-
-
-.btn-hide-answer {
-    display: none;
-    padding:2%;
-    margin: 8%;
-    border-radius: 12%;
-    box-shadow: 15px 10px 20px 8px #b5c6e8;
-    background-color: var(--primary-color);
-    color: var(--second-color)
-}
-
-.btn-hide-answer-none {
-    padding:2%;
-    margin: 8%;
-    border-radius: 12%;
-    box-shadow: 15px 10px 20px 8px #b5c6e8;
-    background-color: var(--primary-color);
-    color: var(--second-color)
-}
-
-.btn-hide-answer-none:focus,
-.btn-hide-answer-none:active {
+.button:focus,
+.button:active {
     background-color: var(--tertiary-color);
     color: var(--primary-color);
 }
 
 .img-bookmark {
     float: right;
-    margin-top: -30px;
+    margin-top: -20px;
     margin-bottom: 0;
     padding: 0px;
     border-radius: 12%;
@@ -72,3 +31,4 @@
 .img-bookmark:hover {
     cursor: pointer;
 }
+
