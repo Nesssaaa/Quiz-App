@@ -11,11 +11,14 @@ const output = document.querySelector('[data-js="showAnswer"]')
     if (output.innerHTML == "Show Answer") {
     output.innerHTML= "Hide Answer";
     showTheAnswer.classList.remove("hidden");
+    document.querySelector(".button").style.backgroundColor = "var(--tertiary-color)";
+    document.querySelector(".button").style.color = "var(--primary-color)";
   }
   else{
     output.innerHTML="Show Answer";
     showTheAnswer.classList.add("hidden");
-   
+    document.querySelector(".button").style.backgroundColor = "var(--primary-color)";
+    document.querySelector(".button").style.color = "var(--second-color)";
   }
 });
 
