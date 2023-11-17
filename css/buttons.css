@@ -9,12 +9,6 @@
     color: var(--second-color)
 }
 
-/*.button:focus, 
-.button:active {
-    background-color: var(--tertiary-color);
-    color: var(--primary-color);
-}*/
-
 .img-bookmark {
     float: right;
     margin-top: -20px;
