@@ -27,6 +27,18 @@ body {
 }
 }
 
+body.dark {
+    --primary-color: #080608;
+    --second-color: #443d45; 
+    --tertiary-color: #510f5e; 
+    color: white; 
+}
+
+.dark-headline {
+    --tertiary-color: #510f5e; 
+    --primary-color: white; 
+}
+
 main {
     display: flex;
     flex-direction: column;

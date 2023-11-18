@@ -14,6 +14,7 @@ const output = document.querySelector('[data-js="showAnswer"]')
     document.querySelector(".button").style.backgroundColor = "var(--tertiary-color)";
     document.querySelector(".button").style.color = "var(--primary-color)";
   }
+
   else{
     output.innerHTML="Show Answer";
     showTheAnswer.classList.add("hidden");
@@ -32,5 +33,31 @@ const output = document.querySelector('[data-js="showAnswer"]')
   clickBookmarkButton.addEventListener("click", () => {
     activeBookmark.classList.toggle("hidden");
     inactiveBookmark.classList.toggle("hidden");
-  })
+    
+  });
+
+  //Dark-Mode
+
+function darkMode() {
+  const bodyElement = document.body;
+  const colorHeadline = document.querySelector('[data-js="h1"]')
+  const outputDarkModeButton = document.querySelector('[data-js="show-dark-Mode"]')
+    
+    if (outputDarkModeButton.innerHTML ==  "Dark Mode") {
+      outputDarkModeButton.innerHTML= "Light Mode";
+      bodyElement.classList.add("dark");
+    colorHeadline.classList.add("dark-headline");
+    document.querySelector('[data-js="self-description"]').style.color = "white";
+    }
+    else {
+      outputDarkModeButton.innerHTML = "Dark Mode";
+      bodyElement.classList.remove("dark");
+    colorHeadline.classList.remove("dark-headline");
+    document.querySelector('[data-js="self-description"]').style.color = "var(--primary-color)";
+    }
+  };
+  
+  
+
+
   

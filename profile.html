@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width", initial-scale=1.0">
     <title>Quiz-App Profile-Page</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <script src="/javascript/index.js" defer></script>
 </head>
-<body>
-    <h1>Quiz App - Profile</h1>
+<body data-js="body">
+    <h1 data-js="h1">Quiz App - Profile</h1>
     <main>
         <section class="profile-card">
             <div class="profile-picture"><img src="images/bx-user-circle.svg" alt="users photo"></div>
-            <textarea class="self-description" rows="4" cols="20"> Hey, thats me! I love to solve quiz-challenges.</textarea>
+            <textarea class="self-description" data-js="self-description" rows="4" cols="20">Hey, thats me! I love to solve quiz-challenges.
+            </textarea>
 
             <ul class="counter">
                 <li><span class="counter-tag"><strong>?! </strong>= 14</span></li>
@@ -20,8 +22,8 @@
                 </span></li>
             </ul>
             
-            <button type="button" class="dark-mode-button" data-js="dark-mode-button"> 
-                Dark Mode
+            <button type="button" onclick="darkMode()" class="dark-mode-button" data-js="dark-mode-button">
+                <span data-js="show-dark-Mode">Dark Mode</span>
             </button>
         </section>
 
