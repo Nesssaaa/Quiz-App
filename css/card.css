@@ -60,3 +60,34 @@
     margin-bottom: -8px;
 }
 
+/*Question-Creator-Form-Field*/
+
+.question-creator {
+    max-width: 80%;
+    max-height: 800px;
+    background-color: var(--second-color);
+    margin-left: 10%;
+    padding: 10%;
+    margin-top: 5%;
+    box-shadow: 20px 20px 50px grey;
+}
+
+#question-field,
+#answer-field
+ {
+    padding: 15px;
+    margin-bottom: 20px;
+   
+    border: 3px solid var(--primary-color);
+    background-color: var(--second-color);
+}
+
+#new-tag
+ {
+    padding: 15px;
+    margin-bottom: 20px;
+   
+    border: 3px solid var(--primary-color);
+    background-color: var(--second-color);
+}
+
