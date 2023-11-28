@@ -17,3 +17,13 @@ const characterDisplayQuestion = document.querySelector(
         const currentCharacterCount = event.target.value.length;
         characterDisplayAnswer.textContent = 150 - currentCharacterCount;
       });   
+
+      console.clear();
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target); 
+        const data = Object.fromEntries(formData); 
+      
+        console.log(data);
+      }); 
