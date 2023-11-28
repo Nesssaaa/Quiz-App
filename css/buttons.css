@@ -32,9 +32,11 @@
     color: white;
 }
 
+/*new Questions-Creator*/
+
 .submit-button {
     padding:2%;
-    margin: 8%;
+    margin: 3%;
     border-radius: 12%;
     box-shadow: 15px 10px 20px 8px #b5c6e8;
     background-color: var(--primary-color);
