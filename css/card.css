@@ -77,8 +77,6 @@
 #answer-field
  {
     padding: 15px;
-    margin-bottom: 20px;
-   
     border: 3px solid var(--primary-color);
     background-color: var(--second-color);
 }
@@ -96,4 +94,11 @@ label {
     text-align: left;
     color: var(--primary-color);
 }
+
+.remaining-characters {
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 20px;
+  }
 

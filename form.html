@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width", initial-scale=1.0">
     <title>Quiz-App Forms-Page</title>
     <link rel="stylesheet" href="/css/styles.css">
-    <script src="/javascript/index.js" defer></script>
+    <script src="/javascript/forms.js" defer></script>
 </head>
 <body data-ja="body">
     <h1>New Questions-Creator</h1>
@@ -13,12 +13,34 @@
         
     <form class="question-creator">
         <label for="question-field">Your Question:</label>
-        <textarea id="question-field" data-js="question-field" rows="5" cols="25">Write your question
-        </textarea>
+        <textarea 
+        id="question-field" 
+        data-js="question-field" 
+        name="question-field"
+        rows="5" 
+        cols="25"
+        placeholder="Write your question"
+        maxlength="150"
+    
+        ></textarea>
+        <p class="remaining-characters">
+            <span data-js="remaining-characters-question">150</span> characters left
+          </p>
        
         <label for="answer-field">Your Answer:</label>
-        <textarea id="answer-field" data-js="answer-field" rows="5" cols="25">Write your answer
-        </textarea>
+        <textarea 
+        id="answer-field"
+        data-js="answer-field"
+        name="answer-field"
+        rows="5"
+        cols="25"
+        placeholder="Write your answer"
+        maxlength="150"
+        
+        ></textarea>
+        <p class="remaining-characters">
+            <span data-js="remaining-characters-answer">150</span> characters left
+          </p>
 
         <label for="new-tag">Tag:</label> 
         <input type="text" name="new-tag" id="new-tag"> <br>
