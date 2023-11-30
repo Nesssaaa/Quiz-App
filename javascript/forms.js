@@ -27,3 +27,49 @@ const characterDisplayQuestion = document.querySelector(
       
         console.log(data);
       }); 
+
+
+//Create new Cards
+
+const newQuestion = questionInput.textContent;
+const newAnswer = answerInput.textContent;
+const bodyForms = document.querySelector('[data-js="body-forms“]');
+const submitButton = document.querySelector('[data-js="submitButton“]');
+
+submitButton.addEventListener("submit", () => {
+    console.log("isSubmitted")
+const newCard = document.createElement("section")
+newCard.classList.add("question-card")
+newCard.innerHTML =
+`<section class="question-card" id="question-card 1">
+<button type="button" class="img-bookmark" data-js="bookmarkButton"> 
+    <img data-js="inactiveBookmark" src="images/bx-bookmark.svg" alt="bookmark inactive">
+    <img class="hidden" data-js="activeBookmark" src="images/bxs-bookmarkActive.svg" alt="bookmark active">
+</button>
+    <br>
+<span>${newQuestion}</span><br>
+<button class="button button-yellow" data-js="showButton">
+    <span data-js="showAnswer">Show Answer</span> 
+</button>
+
+<div class="answer-container">
+    <span class="hidden" data-js="rightAnswer">${newAnswer}</span>
+</div>
+
+<ul class="category">
+    <li><span class="tag">#html</span></li>
+    <li><span class="tag">#flexbox</span></li>
+    <li><span class="tag">#css</span></li>
+</ul>
+</section>`
+
+console.log(newCard + "hallo");
+
+bodyForms.append(newCard);
+
+});
+
+
+
+
+
